@@ -1,0 +1,21 @@
+{
+  "name": "nakanakaii/countries",
+  "description": "This package is a user-friendly Flutter package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/nakanakaii/countries",
+  "autoload": {
+    "psr-4": {
+      "Nakanakaii\\Countries\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ahmed D. ALi",
+      "email": "ahmed.dahan.ali@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0"
+  }
+}
