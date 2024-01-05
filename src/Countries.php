@@ -20,7 +20,11 @@ class Countries
                 "flag" => "🇦🇫",
                 "code" => "AF",
                 "dialCode" => "93",
-                "regionCode" => "",
+                "regionCode" => "AP",
+                "timezones" => [3.5],
+                "languages" => ["Pashto", "Dari"],
+                "languageCodes" => ["ps", "fa"],
+                "region" => "Asia",
                 "minLength" => 9,
                 "maxLength" => 9
             ],
@@ -29,7 +33,11 @@ class Countries
                 "flag" => "🇦🇽",
                 "code" => "AX",
                 "dialCode" => "358",
-                "regionCode" => "",
+                "regionCode" => "EU",
+                "timezones" => [2],
+                "languages" => ["Swedish"],
+                "languageCodes" => ["sv"],
+                "region" => "Europe",
                 "minLength" => 15,
                 "maxLength" => 15
             ],
@@ -38,7 +46,11 @@ class Countries
                 "flag" => "🇦🇱",
                 "code" => "AL",
                 "dialCode" => "355",
-                "regionCode" => "",
+                "regionCode" => "EU",
+                "timezones" => [1],
+                "languages" => ["Albanian"],
+                "languageCodes" => ["sq"],
+                "region" => "Europe",
                 "minLength" => 9,
                 "maxLength" => 9
             ],
@@ -47,7 +59,11 @@ class Countries
                 "flag" => "🇩🇿",
                 "code" => "DZ",
                 "dialCode" => "213",
-                "regionCode" => "",
+                "regionCode" => "AF",
+                "timezones" => [1],
+                "languages" => ["Arabic"],
+                "languageCodes" => ["ar"],
+                "region" => "Africa",
                 "minLength" => 9,
                 "maxLength" => 9
             ],
@@ -56,7 +72,11 @@ class Countries
                 "flag" => "🇦🇸",
                 "code" => "AS",
                 "dialCode" => "1684",
-                "regionCode" => "",
+                "regionCode" => "OC",
+                "timezones" => [-11],
+                "languages" => ["Samoan", "English"],
+                "languageCodes" => ["sm", "en"],
+                "region" => "Oceania",
                 "minLength" => 7,
                 "maxLength" => 7
             ],
@@ -65,7 +85,11 @@ class Countries
                 "flag" => "🇦🇩",
                 "code" => "AD",
                 "dialCode" => "376",
-                "regionCode" => "",
+                "regionCode" => "EU",
+                "timezones" => [1],
+                "languages" => ["Catalan"],
+                "languageCodes" => ["ca"],
+                "region" => "Europe",
                 "minLength" => 9,
                 "maxLength" => 9
             ],
@@ -74,7 +98,11 @@ class Countries
                 "flag" => "🇦🇴",
                 "code" => "AO",
                 "dialCode" => "244",
-                "regionCode" => "",
+                "regionCode" => "AF",
+                "timezones" => [1],
+                "languages" => ["Portuguese"],
+                "languageCodes" => ["pt"],
+                "region" => "Africa",
                 "minLength" => 9,
                 "maxLength" => 9
             ],
@@ -83,7 +111,11 @@ class Countries
                 "flag" => "🇦🇮",
                 "code" => "AI",
                 "dialCode" => "1264",
-                "regionCode" => "",
+                "regionCode" => "NA",
+                "timezones" => [-4],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "region" => "North America",
                 "minLength" => 7,
                 "maxLength" => 7
             ],
@@ -92,7 +124,11 @@ class Countries
                 "flag" => "🇦🇶",
                 "code" => "AQ",
                 "dialCode" => "672",
-                "regionCode" => "",
+                "regionCode" => "AN",
+                "timezones" => [3, 5, 6, 7, 8, 10, 12],
+                "languages" => ["Various"],
+                "languageCodes" => ["various"],
+                "region" => "Antarctica",
                 "minLength" => 6,
                 "maxLength" => 6
             ],
@@ -101,72 +137,104 @@ class Countries
                 "flag" => "🇦🇬",
                 "code" => "AG",
                 "dialCode" => "1268",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-4],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "region" => "North America"
             ],
             [
                 "name" => "Argentina",
                 "flag" => "🇦🇷",
                 "code" => "AR",
                 "dialCode" => "54",
-                "regionCode" => "",
+                "regionCode" => "SA",
                 "minLength" => 12,
-                "maxLength" => 12
+                "maxLength" => 12,
+                "timezones" => [-3],
+                "languages" => ["Spanish"],
+                "languageCodes" => ["es"],
+                "region" => "South America"
             ],
             [
                 "name" => "Armenia",
                 "flag" => "🇦🇲",
                 "code" => "AM",
                 "dialCode" => "374",
-                "regionCode" => "",
+                "regionCode" => "AS",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [4],
+                "languages" => ["Armenian"],
+                "languageCodes" => ["hy"],
+                "region" => "Asia"
             ],
             [
                 "name" => "Aruba",
                 "flag" => "🇦🇼",
                 "code" => "AW",
                 "dialCode" => "297",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-4],
+                "languages" => ["Dutch", "Papiamento"],
+                "languageCodes" => ["nl", "pap"],
+                "region" => "North America"
             ],
             [
                 "name" => "Australia",
                 "flag" => "🇦🇺",
                 "code" => "AU",
                 "dialCode" => "61",
-                "regionCode" => "",
+                "regionCode" => "OC",
                 "minLength" => 9,
-                "maxLength" => 9
+                "maxLength" => 9,
+                "timezones" => [8, 9.5, 10, 10.5, 11.5],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "region" => "Oceania"
             ],
             [
                 "name" => "Austria",
                 "flag" => "🇦🇹",
                 "code" => "AT",
                 "dialCode" => "43",
-                "regionCode" => "",
+                "regionCode" => "EU",
                 "minLength" => 13,
-                "maxLength" => 13
+                "maxLength" => 13,
+                "timezones" => [1],
+                "languages" => ["German"],
+                "languageCodes" => ["de"],
+                "region" => "Europe"
             ],
             [
                 "name" => "Azerbaijan",
                 "flag" => "🇦🇿",
                 "code" => "AZ",
                 "dialCode" => "994",
-                "regionCode" => "",
+                "regionCode" => "AS",
                 "minLength" => 9,
-                "maxLength" => 9
+                "maxLength" => 9,
+                "timezones" => [4],
+                "languages" => ["Azerbaijani"],
+                "languageCodes" => ["az"],
+                "region" => "Asia"
             ],
             [
                 "name" => "Bahamas",
                 "flag" => "🇧🇸",
                 "code" => "BS",
                 "dialCode" => "1242",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-5],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "region" => "North America"
             ],
             [
                 "name" => "Bahrain",
@@ -175,106 +243,152 @@ class Countries
                 "dialCode" => "973",
                 "regionCode" => "",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [3],
+                "languages" => ["Arabic"],
             ],
             [
                 "name" => "Bangladesh",
                 "flag" => "🇧🇩",
                 "code" => "BD",
                 "dialCode" => "880",
-                "regionCode" => "",
+                "regionCode" => "AS",
                 "minLength" => 10,
-                "maxLength" => 10
+                "maxLength" => 10,
+                "timezones" => [6],
+                "languages" => ["Bengali"],
+                "languageCodes" => ["bn"],
+                "continent" => "Asia"
             ],
             [
                 "name" => "Barbados",
                 "flag" => "🇧🇧",
                 "code" => "BB",
                 "dialCode" => "1246",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-4],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "continent" => "North America"
             ],
             [
                 "name" => "Belarus",
                 "flag" => "🇧🇾",
                 "code" => "BY",
                 "dialCode" => "375",
-                "regionCode" => "",
+                "regionCode" => "EU",
                 "minLength" => 10,
-                "maxLength" => 10
+                "maxLength" => 10,
+                "timezones" => [3],
+                "languages" => ["Belarusian", "Russian"],
+                "languageCodes" => ["be", "ru"],
+                "continent" => "Europe"
             ],
             [
                 "name" => "Belgium",
                 "flag" => "🇧🇪",
                 "code" => "BE",
                 "dialCode" => "32",
-                "regionCode" => "",
+                "regionCode" => "EU",
                 "minLength" => 9,
-                "maxLength" => 9
+                "maxLength" => 9,
+                "timezones" => [1],
+                "languages" => ["Dutch", "French", "German"],
+                "languageCodes" => ["nl", "fr", "de"],
+                "continent" => "Europe"
             ],
             [
                 "name" => "Belize",
                 "flag" => "🇧🇿",
                 "code" => "BZ",
                 "dialCode" => "501",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-6],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "continent" => "North America"
             ],
             [
                 "name" => "Benin",
                 "flag" => "🇧🇯",
                 "code" => "BJ",
                 "dialCode" => "229",
-                "regionCode" => "",
+                "regionCode" => "AF",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [1],
+                "languages" => ["French"],
+                "languageCodes" => ["fr"],
+                "continent" => "Africa"
             ],
             [
                 "name" => "Bermuda",
                 "flag" => "🇧🇲",
                 "code" => "BM",
                 "dialCode" => "1441",
-                "regionCode" => "",
+                "regionCode" => "NA",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [-4],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "continent" => "North America"
             ],
             [
                 "name" => "Bhutan",
                 "flag" => "🇧🇹",
                 "code" => "BT",
                 "dialCode" => "975",
-                "regionCode" => "",
+                "regionCode" => "AS",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [6],
+                "languages" => ["Dzongkha"],
+                "languageCodes" => ["dz"],
+                "continent" => "Asia"
             ],
             [
-                "name" => "Bolivia, Plurinational State of bolivia",
+                "name" => "Bolivia, Plurinational State of",
                 "flag" => "🇧🇴",
                 "code" => "BO",
                 "dialCode" => "591",
-                "regionCode" => "",
+                "regionCode" => "SA",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [-4],
+                "languages" => ["Spanish", "Quechua", "Aymara"],
+                "languageCodes" => ["es", "qu", "ay"],
+                "continent" => "South America"
             ],
             [
                 "name" => "Bosnia and Herzegovina",
                 "flag" => "🇧🇦",
                 "code" => "BA",
                 "dialCode" => "387",
-                "regionCode" => "",
+                "regionCode" => "EU",
                 "minLength" => 9,
-                "maxLength" => 9
+                "maxLength" => 9,
+                "timezones" => [1],
+                "languages" => ["Bosnian", "Croatian", "Serbian"],
+                "languageCodes" => ["bs", "hr", "sr"],
+                "continent" => "Europe"
             ],
             [
                 "name" => "Botswana",
                 "flag" => "🇧🇼",
                 "code" => "BW",
                 "dialCode" => "267",
-                "regionCode" => "",
+                "regionCode" => "AF",
                 "minLength" => 8,
-                "maxLength" => 8
+                "maxLength" => 8,
+                "timezones" => [2],
+                "languages" => ["English", "Setswana"],
+                "languageCodes" => ["en", "tn"],
+                "continent" => "Africa"
             ],
             [
                 "name" => "Bouvet Island",
@@ -283,16 +397,24 @@ class Countries
                 "dialCode" => "47",
                 "regionCode" => "",
                 "minLength" => 15,
-                "maxLength" => 15
+                "maxLength" => 15,
+                "timezones" => [1],
+                "languages" => ["Norwegian"],
+                "languageCodes" => ["no"],
+                "continent" => "Antarctica"
             ],
             [
                 "name" => "Brazil",
                 "flag" => "🇧🇷",
                 "code" => "BR",
                 "dialCode" => "55",
-                "regionCode" => "",
+                "regionCode" => "SA",
                 "minLength" => 11,
-                "maxLength" => 11
+                "maxLength" => 11,
+                "timezones" => [-2, -3, -4],
+                "languages" => ["Portuguese"],
+                "languageCodes" => ["pt"],
+                "continent" => "South America"
             ],
             [
                 "name" => "British Indian Ocean Territory",
@@ -301,8 +423,13 @@ class Countries
                 "dialCode" => "246",
                 "regionCode" => "",
                 "minLength" => 7,
-                "maxLength" => 7
+                "maxLength" => 7,
+                "timezones" => [6],
+                "languages" => ["English"],
+                "languageCodes" => ["en"],
+                "continent" => "Asia"
             ],
+            //TODO: continue from here on
             [
                 "name" => "Brunei Darussalam",
                 "flag" => "🇧🇳",
@@ -2334,5 +2461,20 @@ class Countries
         $dialCode = $country['dialCode'];
 
         return 'required|string|regex:/^' . $dialCode . '\d{' . $minLength . ',' . $maxLength . '}$/';
+    }
+
+    /**
+     * Retrieves the flag image path based on the country code.
+     *
+     * @param string $code The country code to retrieve the flag image for.
+     * @param string $prefix The prefix to prepend to the flag image path.
+     * @return string The URL of the flag image.
+     * @throws Exception If country code not found.
+     */
+    public static function getFlagImageByCode(string $code, string $prefix = ''): string
+    {
+        $country = self::findByCode($code);
+        $path = public_path($prefix . 'vendor/countries/flags/' . strtolower($country['code']) . '.png');
+        return $country['flag'];
     }
 }
