@@ -1,21 +1,38 @@
 {
-  "name": "nakanakaii/countries",
-  "description": "This package is a user-friendly Flutter package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.",
-  "type": "library",
-  "license": "MIT",
-  "homepage": "https://github.com/nakanakaii/countries",
+  "authors": [
+    {
+      "email": "ahmed.dahan.ali@gmail.com",
+      "name": "Ahmed D. ALi"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Nakanakaii\\Countries\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "Ahmed D. ALi",
-      "email": "ahmed.dahan.ali@gmail.com"
+  "description": "This package is a user-friendly Laravel package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nakanakaii\\Countries\\CountriesServiceProvider"
+      ]
     }
-  ],
+  },
+  "homepage": "https://github.com/nakanakaii/countries",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "name": "nakanakaii/countries",
   "require": {
+    "laravel/framework": ">=9.0.0 <11.0.0",
     "php": ">=8.0.0"
-  }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan vendor:publish --tag=countries-flags --force"
+    ],
+    "post-update-cmd": [
+      "php artisan vendor:publish --tag=countries-flags --force"
+    ]
+  },
+  "type": "library"
 }

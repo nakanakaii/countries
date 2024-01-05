@@ -1,6 +1,6 @@
 # Countries
 
-This package is a user-friendly Flutter package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.
+This package is a user-friendly Laravel package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.
 
 - [Countries](#countries)
   - [Installation](#installation)
@@ -21,7 +21,13 @@ To install the package, use the following command:
 composer require nakanakaii/countries
 ```
 
-After installing the package, you can import it in your code:
+Also, publish the flags to your application's public folder.
+
+```bash
+php artisan vendor:publish --tag=countries-flags
+```
+
+Finally, you can import it in your code:
 
 ```php
 use Nakanakaii\Countries\Countries;
