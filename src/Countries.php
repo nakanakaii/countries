@@ -2426,7 +2426,7 @@ class Countries
                 return $country;
             }
         }
-        throw new Exception("Country dial code not found: $code");
+        throw new Exception("Country code not found: $code");
     }
 
     /**
