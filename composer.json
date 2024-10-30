@@ -23,8 +23,8 @@
   "minimum-stability": "dev",
   "name": "nakanakaii/countries",
   "require": {
-    "laravel/framework": ">=9.0.0 <13.0.0",
-    "php": ">=8.0.0"
+    "php": ">=8.0.0",
+    "illuminate/support": "*"
   },
   "scripts": {
     "post-install-cmd": [
