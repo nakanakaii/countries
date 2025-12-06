@@ -1,5 +1,13 @@
 # Countries
 
+![Packagist Version](https://img.shields.io/packagist/v/nakanakaii/countries) 
+![Packagist Downloads](https://img.shields.io/packagist/dt/nakanakaii/countries) 
+![License](https://img.shields.io/packagist/l/nakanakaii/countries) 
+![PHP Version](https://img.shields.io/packagist/php-v/nakanakaii/countries) 
+![GitHub Stars](https://img.shields.io/github/stars/nakanakaii/countries?style=social) 
+![GitHub Issues](https://img.shields.io/github/issues/nakanakaii/countries) 
+![Last Commit](https://img.shields.io/github/last-commit/nakanakaii/countries)
+
 This package is a user-friendly Laravel package that provides a list of countries along with their codes, flags, phone number lengths, and shortcodes. It simplifies the process of accessing country-related information, making it easy for developers to integrate into their applications.
 
 - [Countries](#countries)
@@ -45,12 +53,18 @@ Countries::all()
 
 The `all()` method returns an array of country objects, each containing the following information:
 
-- `name`: The name of the country.
-- `code`: The ISO 3166-1 alpha-2 code of the country.
-- `flag`: The flag of the country as Emoji.
-- `minLength`: The minimum length of the phone number.
-- `maxLength`: The maximum length of the phone number.
-- `shortcode`: The shortcode or abbreviation for the country.
+- `name`: The name of the country (e.g., "Japan").
+- `code`: The ISO 3166-1 alpha-2 code of the country (e.g., "JP").
+- `flag`: The flag of the country as emoji (e.g., "🇯🇵").
+- `dialCode`: The international dialing code for the country (e.g., "81").
+- `regionCode`: Short region code (e.g., "AS").
+- `timezones`: An array of timezone offsets or identifiers (e.g., [9]).
+- `languages`: An array of language names spoken in the country (e.g., ["Japanese"]).
+- `languageCodes`: An array of language ISO codes (e.g., ["ja"]).
+- `region`: Human-readable region name (e.g., "Asia").
+- `currencyCode`: The ISO currency code used in the country (e.g., "JPY").
+- `minLength`: The minimum length of the local phone number (e.g., 10).
+- `maxLength`: The maximum length of the local phone number (e.g., 10)
 
 ### Get a specific country by name
 
