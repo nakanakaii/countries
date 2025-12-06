@@ -485,15 +485,6 @@ class Countries
                 "maxLength" => 9
             ],
             [
-                "name" => "Campione d'Italia",
-                "flag" => "🇮🇹",
-                "code" => "IT",
-                "dialCode" => "41",
-                "regionCode" => "91",
-                "minLength" => 13,
-                "maxLength" => 13
-            ],
-            [
                 "name" => "Canada",
                 "flag" => "🇨🇦",
                 "code" => "CA",
